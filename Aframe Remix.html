@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank of America Plaza Model</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-particle-system-component@a5a8449/dist/aframe-particle-system-component.js"></script>
+  </head>
+  <body>
+      <!-- Sky -->
+      <a-scene background="color: #0C1445" material="shader: gradient">
+
+      <!-- Ground -->
+      <a-plane position="0 -4 0" rotation="-90 0 0" width="30" height="30" color="#228B22"></a-plane>
+
+      <!--Pavement-->
+      <a-plane position="0 -3.9 0" rotation="-90 0 0" width="4.8" height="30" color="#373D3F" material="shader: flat"></a-plane>
+
+      <!--Rain-->
+      <a-entity id="rain" particle-system="preset: rain; color: #9099A1; particleCount: 5000"></a-entity>
+
+      <!-- Bank of America Plaza -->
+      <a-box src="https://cdn.discordapp.com/attachments/1286452318468046859/1286452467277496401/windows.jpg?ex=66edf5b9&is=66eca439&hm=70289ef884a5f0042cb485e6b96a092aa32838c9e94b6593feaf90f2acad06f8&" material="shader: flat" position="0 0.25 -10" depth="2" height="7.5" width="2"></a-box>
+      <a-box src="https://cdn.discordapp.com/attachments/1286452318468046859/1286452467277496401/windows.jpg?ex=66edf5b9&is=66eca439&hm=70289ef884a5f0042cb485e6b96a092aa32838c9e94b6593feaf90f2acad06f8&" material="shader: flat" position="0 5.5 -10" depth="2" height="3" width="1.8"></a-box>
+      <a-box src="https://cdn.discordapp.com/attachments/1286452318468046859/1286452467277496401/windows.jpg?ex=66edf5b9&is=66eca439&hm=70289ef884a5f0042cb485e6b96a092aa32838c9e94b6593feaf90f2acad06f8&" material="shader: flat" position="0 7.5 -10" depth="2" height="1" width="1.6"></a-box>
+      <a-box material="shader: flat" position="0 -4 -10" depth="2.2" height="1" width="2.2" color="#8B4513"></a-box>
+
+      <a-box material="shader: flat" position="-0.9 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.75 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.6 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.45 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.3 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.15 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.15 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.3 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.45 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.6 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.75 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.9 0.25 -10" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      
+      <a-box material="shader: flat" position="0 0.25 -10.9" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -10.75" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -10.6" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -10.45" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -10.3" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -10.15" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -10" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -9.85" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -9.7" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -9.55" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -9.4" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -9.25" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 0.25 -9.1" rotation="0 90 0" depth="2.1" height="7.5" width="0.1" color="#8B4513"></a-box>
+
+      <a-box material="shader: flat" position="-0.775 5.5 -10" depth="2.1" height="3" width="0.15" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.6 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.45 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.3 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.15 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.15 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.3 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.45 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.6 5.5 -10" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.775 5.5 -10" depth="2.1" height="3" width="0.15" color="#8B4513"></a-box>
+      
+      <a-box material="shader: flat" position="0 5.5 -10.9" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -10.75" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -10.6" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -10.45" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -10.3" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -10.15" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -10" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -9.85" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -9.7" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -9.55" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -9.4" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -9.25" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 5.5 -9.1" rotation="0 90 0" depth="2.1" height="3" width="0.1" color="#8B4513"></a-box>
+
+      <a-box material="shader: flat" position="-0.65 7.5 -10" depth="2.1" height="1" width="0.2" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.45 7.5 -10" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.3 7.5 -10" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="-0.15 7.5 -10" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -10" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.15 7.5 -10" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.3 7.5 -10" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.45 7.5 -10" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0.65 7.5 -10" depth="2.1" height="1" width="0.2" color="#8B4513"></a-box>
+      
+      <a-box material="shader: flat" position="0 7.5 -10.9" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -10.75" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -10.6" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -10.45" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -10.3" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -10.15" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -10" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -9.85" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -9.7" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -9.55" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -9.4" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -9.25" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+      <a-box material="shader: flat" position="0 7.5 -9.1" rotation="0 90 0" depth="2.1" height="1" width="0.1" color="#8B4513"></a-box>
+
+      <a-octahedron position="0 8 -10" radius-bottom="0.8" rotation="0 45 0" scale="1 2 1" color="#FFD700" light="type: point; color: #FFD700; intensity: 1" material="shader: flat"></a-octahedron>
+      <a-cylinder position="0 10 -10" height="0.5" radius="0.04" color="#D7D7D7" material="shader: flat"></a-cylinder>
+      <a-cylinder position="0 10.4 -10" height="0.5" radius="0.03" color="#D7D7D7" material="shader: flat"></a-cylinder>
+
+      <!--Trees-->
+      <a-cylinder position="-3 -4 -6" radius="0.3" height="2" color="#8B4513"></a-cylinder>
+      <a-sphere position="-3 -2.5 -6" radius="1" color="#228B22"></a-sphere>
+
+      <a-cylinder position="3 -4 -6" radius="0.3" height="2" color="#8B4513"></a-cylinder>
+      <a-sphere position="3 -2.5 -6" radius="1" color="#228B22"></a-sphere>
+
+      <a-cylinder position="-6 -4 -8" radius="0.3" height="2" color="#8B4513"></a-cylinder>
+      <a-sphere position="-6 -2.5 -8" radius="1" color="#228B22"></a-sphere>
+
+      <a-cylinder position="6 -4 -8" radius="0.3" height="2" color="#8B4513"></a-cylinder>
+      <a-sphere position="6 -2.5 -8" radius="1" color="#228B22"></a-sphere>
+
+    </a-scene>
+  </body>
+</html>
